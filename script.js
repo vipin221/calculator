@@ -8,7 +8,7 @@ arr.forEach(button =>{
     button.addEventListener('click', (e) =>{
         if(e.target.innerHTML == '='){
             string = eval(string);
-            if(string%1 ==0){
+            if(string%1 == 0){
                 input.value = string;
             }
             else{
