@@ -3,11 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
     user-select: none;
+    color:  white;
 }
 body{  
     height: 100vh;
     width: 100%;
-   background: linear-gradient(45deg, #67c9de,rgb(239, 169, 169));
+    background: #373838;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +19,8 @@ body{
    width:300px;
    padding: 15px 15px;
    border-radius: 20px;
-   background: linear-gradient(45deg, rgb(239, 169, 169), #67c9de);
-   box-shadow: 0px 3px 15px rgba(67, 67, 67, 0.5);
+   background: #191a1a;
+   box-shadow: 3px 3px 5px rgba(67, 67, 67, 0.5);
 }
 input{
     width: 270px;
@@ -29,9 +30,8 @@ input{
     text-align: right;
     border-radius: 8px;
     font-size: 30px;
-    background: transparent;
-    border: none;
-    box-shadow: 1px 2px 8px rgb(132, 132, 132, 0.9);
+    background: rgb(95, 92, 92);
+    border: none; 
     cursor: pointer;
     outline: none;
 
@@ -45,13 +45,16 @@ button{
     width: 60px;
     margin: 5px 2px;
     border-radius: 50%;
-    border: none;
     background: transparent;
-    box-shadow: 1px 2px 6px rgb(132, 132, 132, 0.9);
+    outline: none;
+  
 }
 button:hover{
     cursor: pointer;
-    box-shadow: 1px 2px 1px rgb(132, 132, 132, 0.9);
+    border-right: 2px solid rgb(52, 52, 52);
+    border-bottom: 2px solid rgb(52, 52, 52);
+    transition: 0.2s;
+    
    
 }
 .bottom-two-line{

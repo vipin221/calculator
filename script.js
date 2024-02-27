@@ -31,9 +31,3 @@ arr.forEach(button =>{
         }
     })
 })
-
-var str = '45+2';
-
-str = eval(str);
-if((str%1))
-console.log(str%1);
